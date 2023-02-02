@@ -76,6 +76,52 @@ namespace Light
             {
                 Console.WriteLine(item);
             }
+
+            // Задание 3 
+
+            Random random = new Random();
+            int[][] steirs = new int[4][];
+            steirs[0] = new int[4];
+            steirs[1] = new int[5];
+            steirs[2] = new int[6];
+            steirs[3] = new int[7];
+            
+            int[] steirs2 = new int[4];
+
+            for (int i = 0; i < steirs.Length; i++)
+            {
+                for (int j = 0; j < steirs[i].Length; j++)
+                {
+                    steirs[i][j] = random.Next(1,10);
+                }
+            }
+
+            Console.WriteLine("Значение массивов");
+
+            foreach (var item in steirs)
+            {
+                
+                foreach (var items in item)
+                {
+                    Console.WriteLine(items);
+                }
+            }
+
+            Console.WriteLine("Наш второй цикл: ");
+            for (int i = 0; i < steirs.Length; i++)
+            {
+                steirs2[i] = steirs[i].Max();
+                
+            }
+
+            foreach (var item in steirs2)
+            {
+                Console.WriteLine(item);
+            }
+
+            
+            Console.WriteLine("Максимальное значение: " + steirs2.Max());
+            Console.WriteLine("Сумма элементов: " + steirs2.Sum());
         }
     }
 }
