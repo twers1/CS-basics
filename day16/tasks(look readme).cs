@@ -21,7 +21,7 @@ namespace Light
             //while(true)
             //{
             //    value = rand.Next(0, 10);
-            //    Console.WriteLine(value);
+            //    Console.WriteLine("Случайное число от 1 до 10: " +value);
             //    Console.ReadKey();
             //}
 
