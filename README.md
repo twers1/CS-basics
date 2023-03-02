@@ -12,10 +12,6 @@
 
 Because I have to study this programming language in college, and do various projects with it. 
 
-## 5 days later (easy practical task)
-
-<img src="example.jpg"/>
-
 # Days (What I've been doing)
 
 ## Day 1 
