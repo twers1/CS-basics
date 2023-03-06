@@ -11,7 +11,7 @@ using System.Xml;
 
 namespace Light
 {
-    // для структурных типов данных подойдет больше ключевое слово ref, так как он значимый тип данных, а не ссылочный
+    
     class Program
     {
         static void Main(string[] args)
@@ -39,27 +39,37 @@ namespace Light
 
             
         }
-        static void Nom1(out double n, double[] arr) {
+         static void Nom1(out double n, double[] arr)
+        {
             n = 0;
-            foreach (var item in arr)
+            //foreach (var item in arr)
+            //{
+            //    if (item > 0)
+            //    {
+            //        n = item;
+            //        return;
+            //    }
+            //}
+            for (int i = 0; i < arr.Length; i++)
             {
-                if(item > 0)
+                if (arr[i] > 0)
                 {
-                    n = item;
+                    n = i; 
                     return;
+                    
                 }
             }
         }
 
-        static void Nom2(ref double n, double[] arr) {
-            double sum = 0;
+        static void Nom2(ref double n, double[] arr)
+        {
 
             for (int i = (int)n; i < arr.Length; i++)
             {
-                sum += arr[i];
+                n += arr[i];
             }
 
-            n = sum / arr.Length;
+            n /= arr.Length;
         }
     }
        
