@@ -86,4 +86,89 @@ They were looking at the param in college
 
 Laboratory work in college
 
+## Day 20
+
+Ref and Out
+
+
+
+## Day 21
+
+Laboratory work in college
+
+
+
+## Day 22
+
+Answer in stackoverflow
+
+
+
+## Day 23
+
+The classes considered are
+
+
+
+## Day 24
+
+Encapsulation, modifiers public and private, the student and car class are considered
+
+
+
+## Day 25
+
+Designer overload and the constructor itself are considered 
+
+
+
+## Day 26
+
+The keyword THIS and the properties get and set are considered
+
+
+
+## Day 27
+
+Params 
+
+
+
+## Day 28
+
+Extension and partial
+
+
+
+## Day 29
+
+Static class, constructor, fields and methods. Examples
+
+
+
+## Day 30
+
+The keyword Const and Readonly, examples. Initializing
+
+
+
+## Day 31
+
+Interface, inheritance
+
+
+
+## Day 32
+
+Abstract 
+
+
+
+## Day 33
+
+The keyword Base, virtual, override, operator Is and As, protected modifier, polymorphism. Examples
+
+
+
+
 
